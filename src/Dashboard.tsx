@@ -11,7 +11,7 @@ export default function Dashboard() {
             <div className='game-container'>
                 <Tile img={tenzies} title='' description='' link='https://tenzies-kawaii.netlify.app/'/>
                 <Tile img={cattitude} title="" description='' link='https://whats-your-cattitude.netlify.app/'/>
-                <Tile img={tictactoe} title='Tic Tac Toe' description='' link='https://tic-tac-toe-shub.netlify.app/'/>
+                <Tile img={tictactoe} title='Tic Tac Toe' description='' link='https://tic-tac-toe-game-bz.netlify.app/'/>
 
                 {/* {<Tile img='' title='Connect 4!' description=''/>
                 <Tile img='' title='Memory game' description=''/>
