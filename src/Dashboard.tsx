@@ -1,6 +1,7 @@
 import Tile from "./Tile";
 import tenzies from './assets/tenzies.png'
 import cattitude from './assets/cattitude.png'
+import tictactoe from './assets/tic-tac-toe.png'
 
 export default function Dashboard() {
     return (
@@ -10,7 +11,7 @@ export default function Dashboard() {
             <div className='game-container'>
                 <Tile img={tenzies} title='' description='' link='https://tenzies-kawaii.netlify.app/'/>
                 <Tile img={cattitude} title="" description='' link='https://whats-your-cattitude.netlify.app/'/>
-                <Tile img='' title='Tic Tac Toe' description='' link=''/>
+                <Tile img={tictactoe} title='Tic Tac Toe' description='' link='https://tic-tac-toe-shub.netlify.app/'/>
 
                 {/* {<Tile img='' title='Connect 4!' description=''/>
                 <Tile img='' title='Memory game' description=''/>
