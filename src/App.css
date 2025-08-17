@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 24px;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.game-tile {
+  max-width: 300px;
+  aspect-ratio: 1;
+  border: 1px solid black;
+  border-radius: 12px;
+}
